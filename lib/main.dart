@@ -20,7 +20,11 @@ class _MagicBallState extends State<MagicBall> {
       home: Scaffold(
         backgroundColor: Colors.blue[200],
         appBar: AppBar(
-          title: const Text("Ask Me Anything"),
+          backgroundColor: Colors.blue[600],
+          title: const Text(
+            "Ask Me Anything",
+            style: TextStyle(fontSize: 35.0),
+          ),
           centerTitle: true,
         ),
         body: Center(
